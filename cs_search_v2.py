@@ -87,7 +87,7 @@ def worker(file, min_sim):
                             r = line.rstrip('\n').split('\t')
                             print("FOUND")
                             print(list_to_line([r[0], r[1], f'{similarity_usrcat:.4f}', qsmi, qid]))
-                            results.append(list_to_line([r[0], r[1], f'{similarity_usrcat:.4f}', qsmi, qid]))
+                            results.append(([r[0], r[1], f'{similarity_usrcat:.4f}', qsmi, qid]))
             except EOFError:
                 print("EOF Message after ", line)
                 break
