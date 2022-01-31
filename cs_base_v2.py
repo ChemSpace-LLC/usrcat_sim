@@ -102,8 +102,7 @@ def download_sets(web_path, path_to_base):
     zipurl = ''
     zip_name = ''
     if web_path == 2:
-        zipurl = ''
-        zip_name = ''
+        zipurl = 'https://chemspacecom-my.sharepoint.com/:u:/g/personal/m_protopopov_chem-space_com/EaHyY4pRqeRIs9ykQN3imhEBvl8_0OvQA0PHO0KH1Gue5w?download=1'
     elif web_path == 3:
         zipurl = 'https://chemspacecom-my.sharepoint.com/:u:/g/personal/m_protopopov_chem-space_com/EeAYk44LOtJJqQwsVPqKDx8BeaCQBizh155_tUfPj5l8aw?download=1'
     elif web_path == 4:
