@@ -2,7 +2,8 @@ USRCAT similarity workflow
 ==========================
 
 
-Using this fingerprint, we discovered a workflow based on [Ultrafast Shape Recognition with Credo Atom Types (USRCAT)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505738/pdf/1758-2946-4-27.pdf), to allow 3D shape similarity search in a huge part of chemical space (8M compounds).
+Aiming to build a tool for comparing 3D-shapes of small organic bioactive molecules, we exploited a concept of invariant 3D-fingerprints called [Ultrafast Shape Recognition with Credo Atom Types (USRCAT)](https://www.ncbi.nlm.nih.gov/pmc/articles/PMC3505738/pdf/1758-2946-4-27.pdf).
+Using this approach, we have developed a compherensive workflow, which would allow to carry out 3D shape similarity searches in a fairly large chemical space (8M compounds).
 
 Dependencies
 Required for Library
@@ -16,7 +17,7 @@ Required for Library
 Setup and Installation
 ======
 
-To use our workflow at conda environment, use the following command 
+To use this workflow under conda environment properly, please, execute the following commands:
  
 - `conda create -n usrcat python=3.8`
 - `conda install -c conda-forge rdkit`
@@ -28,7 +29,7 @@ To use our workflow at conda environment, use the following command
 Databases
 ======
 
-Also, we prepare databases of USRCAT fingerprint to screen Chemspace targeted library
+Also, we prepared a few databases with USRCAT fingerprints to screen Chemspace targeted libraries:
  
 - [GPCRs Targeted Library](https://chemspacecom-my.sharepoint.com/:u:/g/personal/m_protopopov_chem-space_com/EeAYk44LOtJJqQwsVPqKDx8BeaCQBizh155_tUfPj5l8aw?e=Gd9eur)
 - [Allosteric Protein Kinases Targeted Library](https://chemspacecom-my.sharepoint.com/:u:/g/personal/m_protopopov_chem-space_com/EZniFi17gP9OtUHokSINFA8BNgynKLXRWdocIt6eRK3tgA?e=9aPcVh)
@@ -40,7 +41,7 @@ And
 
 All these libraries could be a good starting point for related drug discovery projects.
 
-More info about compounds sets you could found on [Chemspace website](https://chem-space.com/compounds#screening-compounds)
+More info about compound sets one can find at [Chemspace website](https://chem-space.com/compounds#screening-compounds)
 
 
 
