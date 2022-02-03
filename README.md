@@ -6,8 +6,9 @@ Aiming to build a tool for comparing 3D-shapes of small organic bioactive molecu
 Using this approach, we have developed a compherensive workflow, which would allow to carry out 3D shape similarity searches in a fairly large chemical space (8M compounds).
 
 Dependencies
+====
 Required for Library
-
+===
 - `rdkit`
 - `ipywidgets`
 - `tqdm`
@@ -25,6 +26,10 @@ To use this workflow under conda environment properly, please, execute the follo
 - `conda install -c conda-forge tqdm`
 - `conda install -c anaconda notebook`
 - `conda install -c anaconda wget`
+
+Or use usrcatFP.yml file with comand:
+
+- `conda env create -f usrcatFP.yml`
 
 Databases
 ======
